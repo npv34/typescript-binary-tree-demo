@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var TreeBinary_1 = require("./TreeBinary");
+var tree = new TreeBinary_1.TreeBinary();
+tree.insertNode(6);
+tree.insertNode(5);
+tree.insertNode(3);
+tree.insertNode(8);
+tree.insertNode(7);
+tree.insertNode(10);
+tree.readTree(tree.root);
